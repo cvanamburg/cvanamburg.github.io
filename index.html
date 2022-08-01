@@ -1,84 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
 <head>
-    <title>Personal Website of Chase Van Amburg</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        body,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-family: "Montserrat", sans-serif
-        }
-
-        .w3-row-padding img {
-            margin-bottom: 12px
-        }
-
-        /* Set the width of the sidebar to 120px */
-        .w3-sidebar {
-            width: 120px;
-            background: #222;
-        }
-
-        /* Remove margins from "page content" on small screens */
-        @media only screen and (max-width: 600px) {
-            #main {
-                margin-left: 0
-            }
-        }
-    </style>
+	<meta charset="UTF-8">
+	<meta name="theme-color" content="#663399"/>
+	<title>Home</title>
+	<link href="tachyons.min.css" rel="stylesheet" type="text/css">
+	<link href="main.css" rel="stylesheet" type="text/css">
+	
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat Alternates" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Overpass Mono" rel="stylesheet">
+	
+	<script type = "text/javascript" src="Scripts/simple.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.min.js"></script>
 </head>
 
-<body class="w3-light-grey">
-
-    <div class="w3-padding-large" id="main">
-        <header class="w3-container w3-padding-32 w3-center w3-light-grey">
-            <h1 class="w3-jumbo">Personal Site of Chase Van Amburg</h1>
-            <p><i><b>Under Construction . . . </b></i></p>
-            <a href="/ideas">(to ideas page)</a>
-        </header>
-
-
-        <div class="w3-content w3-justify w3-text-dark-grey w3-padding-16">
-                <p>I'm Chase, a student at Harvard College studying <span style="color:teal">evolution</span>, <span style="color:teal">ecology</span>,
-                and the <span style="color:teal">complex systems</span> that arise
-                in our world.
-                My goal with this website is sharing simple, <span style="color:teal">interactive simulations of biological phenomena</span>,
-                hopefully
-                bridging the
-                gap between hard science and natural curiosity.
-            </p>
-
-            <p>
-                I've taken inspiration from the work of a few specific individuals, especially
-                <a href="https://ncase.me" target="_blank" rel="noopener noreferrer" style="color:maroon">Nicky
-                    Case</a>
-                and <a href="https://www.complexity-explorables.org" target="_blank" rel="noopener noreferrer" style="color:maroon">Dirk Brockmann</a>. If you know me, please feel
-                free to reach
-                out with thoughts and advice as I begin my journey into web design and science communication.
-            </p>
-        </div>
-        <div class="w3-right-align w3-content w3-text-black">
-            - Chase
-
-        </div>
-        
-        <div class="w3-content w3-center w3-padding-32 w3-text-grey">
-            <img src="Images/BoxCanyon1.jpg" alt="Canyon" style="width:100%">
-            Box Canyon, Los Angeles, CA: Shot on DJI Mavic Air 2
-        </div>
-
-    </div>
+<body>
+	
+	<header id = "header" class = "fadeIn">
+				<h1>Chase Van Amburg</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html" class="nav-link-ltr">Home</a></li>
+						<li><a href="Articles/index.html" class="nav-link-ltr">Articles</a></li>
+						<li><a href="Photography/index.html" class="nav-link-ltr">Photography</a></li>
+						<li><a href="About/index.html" class="nav-link-ltr">About</a></li>
+					</ul>
+				</nav>
+	</header>
+	
+	<main>
+		
+		<section class="hero">
+		<div id="welcome" class="center"></div>
+			<a href = "Articles/index.html" class ="button">EXPLORE</a>
+	  </section>
+		
+		<section class="intro" align="center">
+			<h2>Goals</h2>
+			<p>
+			1.   Share interactive simulations of biological phenomena to make learning science fun
+			<br><br>
+			2.   Bridge the gap between hard science and natural curiosity through effective science communication
+			<br><br>
+			3.   Introduce readers to exciting resources and creators, such as <a href="https://ncase.me" target="_blank" rel="noopener noreferrer">Nicky Case</a> and 
+				<a href="https://www.complexity-explorables.org" target="_blank" rel="noopener noreferrer">Dirk Brockmann</a>
+			</p>
+		</section>
+		
+	
+	</main>
+	
+	<footer>
+		<p class="fl w-50">© 2022 Chase Van Amburg</p>
+		<p class="fl w-50" align="right"><a href="mailto:cvanamburg@college.harvard.edu">Contact</a></p>
+	</footer>
+	
+	
 
 </body>
-
 </html>
